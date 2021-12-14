@@ -1,6 +1,6 @@
 const fruites = "🍅🍇🍈🍉🍊🍌🍍🍑🍒🍓🍋🍐🥧🍎🍏🥑🥝🥭";
 
-
+// printing emojis
 var emojiStringToArray = function (str) {
   split = str.split(/([\uD800-\uDBFF][\uDC00-\uDFFF])/);
   arr = [];
